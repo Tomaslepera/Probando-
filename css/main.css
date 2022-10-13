@@ -1,0 +1,147 @@
+/* DECORACION INICIO */
+  h1  { 
+       color: rgb(0, 0, 0);
+       font-weight: lighter;
+       font-size: 100px;
+       text-align: center;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+       
+       animation-name: entrada-principal;
+      }
+
+      @media screen and (min-width: 768px) {
+      nav {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      }
+
+      .parrafo-principal {
+        font-family: cursive;
+      }
+
+    
+h2 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* lista */
+  ul {
+        list-style-type: none;
+        text-align: center;
+        font-size: 40px;
+        color: rgb(5, 1, 1);
+        
+      }
+    
+  ul li  {
+           text-decoration: none;
+           padding: 10px;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           font-size: 30px;
+           text-shadow: 3px 3px 3px #ababab;
+           
+          }
+
+/* seleccionar imagen */
+body  {
+    background-image: url("../imagen.html/fondo.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }   
+        
+        
+/* color de inicio contacto */
+.color–primari { 
+    color: rgb(0, 0, 0);
+}
+
+
+body { 
+  text-align: center;
+}
+
+h3 { 
+  font-size: 35px;
+  
+}
+
+p {
+  font-size: 25px;
+  margin: 0px 300px;
+  
+}
+ 
+
+a {text-decoration: none;
+   color: black; }
+
+/* animaciones y tranciciones */
+  .listahistoria:hover {
+    transform: scale(2);
+    transition-duration: 1s; 
+   }
+  .listacontacto:hover {
+    transform: scale(2);
+    transition-duration: 1s; 
+   }
+  .listamenu:hover {
+    transform: scale(2);
+    transition-duration: 1s; 
+   }
+  .listavinos:hover {
+    transform: scale(2);
+    transition-duration: 1s; 
+   }
+  .listagaleria:hover {
+    transform: scale(2);
+    transition-duration: 1s; 
+    transform: rotate(animate__zoomInDown);
+   }
+
+
+
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 5px;
+  width: 300px;
+  
+}
+
+img:hover {
+  box-shadow: 0 0 5px 5px rgb(38, 169, 240);
+  transform: scale(2);
+}
+
+
+
+
+
+
+
+.lastalla { animation-name:entrada-principal ;
+animation-name: entrada-principal;
+animation-duration: 2s;
+
+}
+
+@keyframes entrada-principal {
+ 0% {
+  transform:traslateY(-400px)
+  }
+
+  100% {
+    transform:traslateY(0)
+}
+}
+
+
+
+  
+  
