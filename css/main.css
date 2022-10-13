@@ -1,14 +1,14 @@
 /* DECORACION INICIO */
-  h1  { 
-       color: rgb(0, 0, 0);
-       font-weight: lighter;
-       font-size: 100px;
-       text-align: center;
-       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h1  { 
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        
        
-       animation-name: entrada-principal;
-      }
+  animation-name: entrada-principal;
+}
 
       @media screen and (min-width: 768px) {
       nav {
@@ -17,46 +17,45 @@
       }
       }
 
-      .parrafo-principal {
-        font-family: cursive;
-      }
+.parrafo-principal {
+  font-family: cursive;
+}
 
     
-h2 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+h2 { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* lista */
-  ul {
-        list-style-type: none;
-        text-align: center;
-        font-size: 40px;
-        color: rgb(5, 1, 1);
-        
-      }
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(5, 1, 1);
+}
     
-  ul li  {
-           text-decoration: none;
-           padding: 10px;
-           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-           font-size: 30px;
-           text-shadow: 3px 3px 3px #ababab;
+ul li  {
+  text-decoration: none;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
            
-          }
+}
 
 /* seleccionar imagen */
-body  {
-    background-image: url("../imagen.html/fondo.jpg");
-    background-attachment: fixed;
-    text-align: center;
-    position: sticky;
-    top: 0;
-  }   
+body {
+  background-image: url("../imagen.html/fondo.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}   
         
         
 /* color de inicio contacto */
 .color–primari { 
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -66,13 +65,11 @@ body {
 
 h3 { 
   font-size: 35px;
-  
 }
 
 p {
-  font-size: 25px;
-  margin: 0px 300px;
-  
+   font-size: 25px;
+   margin: 0px 300px;
 }
  
 
@@ -80,38 +77,37 @@ a {text-decoration: none;
    color: black; }
 
 /* animaciones y tranciciones */
-  .listahistoria:hover {
-    transform: scale(2);
-    transition-duration: 1s; 
-   }
-  .listacontacto:hover {
-    transform: scale(2);
-    transition-duration: 1s; 
-   }
-  .listamenu:hover {
-    transform: scale(2);
-    transition-duration: 1s; 
-   }
-  .listavinos:hover {
-    transform: scale(2);
-    transition-duration: 1s; 
-   }
-  .listagaleria:hover {
-    transform: scale(2);
-    transition-duration: 1s; 
-    transform: rotate(animate__zoomInDown);
-   }
+.listahistoria:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
 
+.listacontacto:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
 
+.listamenu:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
 
+.listavinos:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
 
+.listagaleria:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+  transform: rotate(animate__zoomInDown);
+}
 
 img {
   border: 1px solid #ddd;
   border-radius: 15px;
   padding: 5px;
   width: 300px;
-  
 }
 
 img:hover {
@@ -140,6 +136,7 @@ animation-duration: 2s;
     transform:traslateY(0)
 }
 }
+
 
 
 
