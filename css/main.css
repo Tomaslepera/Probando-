@@ -138,5 +138,8 @@ img:hover {
     flex-direction: column;
     text-align: center;
   }
+  .mapa {
+    width: 80%;
+  }
 }
   
