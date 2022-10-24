@@ -10,21 +10,36 @@ h1  {
   animation-name: entrada-principal;
 }
 
-      @media screen and (min-width: 768px) {
-      nav {
-        flex-direction: row;
-        justify-content: space-between;
-      }
-      }
+h2 { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+h3 { 
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+  
+  
+}
+
+a {text-decoration: none;
+  color: black; }
 
 .parrafo-principal {
   font-family: cursive;
 }
 
-    
-h2 { 
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* NAVEGADOR DE PAGINAS */
+.navegador {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+justify-content: flex-end;
+font-size: 100%;
 }
+
+
 
 /* lista */
 ul {
@@ -51,30 +66,6 @@ body {
   position: sticky;
   top: 0;
 }   
-        
-        
-/* color de inicio contacto */
-.color–primari { 
-  color: rgb(0, 0, 0);
-}
-
-
-body { 
-  text-align: center;
-}
-
-h3 { 
-  font-size: 35px;
-}
-
-p {
-   font-size: 25px;
-   margin: 0px 300px;
-}
- 
-
-a {text-decoration: none;
-   color: black; }
 
 /* animaciones y tranciciones */
 .listahistoria:hover {
@@ -115,42 +106,37 @@ img:hover {
   transform: scale(2);
 }
 
+/* IMAGENES EN CAJA */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.caja {
-  border: 4px solid black;
-  text-align: center;
-  
+
+
+@media screen and (min-width: 360px) {
+ 
+ }
+
+}
+
+.flexindex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .flexindex {
+    flex-direction: column;
   }
-
-.grids {
-  display: grid;
-  margin: auto;
-  grid-template-columns: auto auto auto auto;
-}
-
-.lastalla { animation-name:entrada-principal ;
-animation-name: entrada-principal;
-animation-duration: 2s;
-
-}
-
-@keyframes entrada-principal {
- 0% {
-  transform:traslateY(-400px)
+  p {
+    text-align: center;
   }
-
-  100% {
-    transform:traslateY(0)
+  .navegador {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
-}
-
-
-
-
-  
   
