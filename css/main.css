@@ -7,7 +7,7 @@ h1  {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        
        
-  animation-name: entrada-principal;
+  animation-name: entrada-principal; !important
 }
 
 h2 { 
@@ -19,9 +19,8 @@ h3 {
 }
 
 p {
-  font-size: 25px;
-  
-  
+  font-size: 25px; 
+  color: black;
 }
 
 a {text-decoration: none;
@@ -65,6 +64,8 @@ body {
   text-align: center;
   position: sticky;
   top: 0;
+  color: black;
+  font-family: ;
 }   
 
 /* animaciones y tranciciones */
@@ -101,7 +102,7 @@ img {
   width: 300px;
 }
 
-img:hover {
+.imagenes img:hover {
   box-shadow: 0 0 5px 5px rgb(38, 169, 240);
   transform: scale(2);
 }
@@ -143,3 +144,17 @@ img:hover {
   }
 }
   
+.list-group {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(150, 91, 53);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
+  font-size: 5S00px !important ;
+}
